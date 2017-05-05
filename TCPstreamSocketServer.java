@@ -177,45 +177,8 @@ public class TCPstreamSocketServer
 		  return msg;
 	}
 	
-	public static String nextEven (int n)
-	{
-		String msg = "";
-		int even = 0;
-		if (n %2 != 0)
-		{
-			while (n %2 != 0)
-			{
-				n++;
-			}
-		even  = n;
-		}
-		else 
-		{
-			even = n +2;
-		}
-		msg = "The Next Even Number is: " + even;
-		return msg;
-	}
+
 	
-	public static String nextOdd (int n)
-	{
-		String msg = "";
-		int odd = 1;
-		if (n %2 == 0)
-		{
-			while (n %2 == 0)
-			{
-				n++;
-			}
-		odd  = n;
-		}
-		else 
-		{
-			odd = n +2;
-		}
-		msg = "The Next Even Number is: " + odd;
-		return msg;
-	}
 	
 } // end of server program 
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package lab7;
 
 import java.io.IOException;
@@ -178,7 +179,4 @@ public class TCPstreamSocketServer
 	}
 	
 } // end of server program 
-
-
-	
 
